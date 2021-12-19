@@ -1,1 +1,1 @@
-# AutomationProject1 this projectis for sep batch
+# AutomationProject1 this project is for sep batch

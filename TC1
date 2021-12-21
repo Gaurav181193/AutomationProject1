@@ -1,0 +1,28 @@
+public class Testngclass {
+	@Test (priority=-2, invocationCount=4)
+	public void TC01() {
+		System.out.println("Running TC01");
+	}
+	@Test (priority=-1)
+	public void TC02() {
+		System.out.println("Running TC02");
+	}	
+	@BeforeMethod
+	public void loginapp() {
+		System.out.println("login");
+	}
+	@AfterMethod
+	public void logoutapp() {
+		System.out.println("logout");
+	}
+	@BeforeClass
+	public void launchbrowser() {
+	System.out.println("browser launch");
+	}
+		@AfterClass
+		public void closebrowser() {
+			System.out.println("browser close");
+		}
+	}
+	
+	
